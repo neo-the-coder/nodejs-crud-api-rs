@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "1.  [Link to the task](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/crud-api/assignment.md)\r 2.  Deadline date: 13 February 2024 04:00",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
