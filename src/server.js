@@ -107,8 +107,8 @@ const server = createServer((req, res) => {
   // Handle other routes...
   else {
     res.writeHead(404, { "Content-Type": "text/plain" });
-    res.end("Not Found");
-    console.info("Not Found");
+    res.end("Requested resourse not Found");
+    console.info("Requested resourse not Found");
   }
 });
 
