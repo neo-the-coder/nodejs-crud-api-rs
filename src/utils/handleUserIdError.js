@@ -13,10 +13,12 @@ export const hasUserIdError = (userId, res) => {
     hasError = true;
     res.writeHead(400, { "Content-Type": "text/plain" });
     res.end("Invalid userId format");
+    console.info("Invalid userId format");
   } else if (userModel.getUserById(userId) === undefined) {
     hasError = true;
     res.writeHead(404, { "Content-Type": "text/plain" });
     res.end("User not found");
+    console.info("User not found");
   }
   return hasError;
 };
