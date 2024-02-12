@@ -1,0 +1,18 @@
+{
+  "name": "crud-api",
+  "version": "1.0.0",
+  "description": "1.  [Link to the task](https://github.com/AlreadyBored/nodejs-assignments/blob/main/assignments/crud-api/assignment.md)\r 2.  Deadline date: 13 February 2024 04:00",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kamran Zeynalov",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.2",
+    "eslint": "^8.56.0",
+    "nodemon": "^3.0.3",
+    "uuid": "^9.0.1"
+  }
+}
